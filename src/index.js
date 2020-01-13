@@ -1,8 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import './styles/tailwind.css';
 import * as serviceWorker from './serviceWorker';
+import ReactDOM from 'react-dom';
+import React from 'react';
+import App from './App';
+
+import './styles/tailwind.css';
+import './styles/app.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
